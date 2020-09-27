@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{2FE2FAEB-1886-459F-8A8D-5BD35A305FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{80ED1586-64B0-46DF-9CED-25DF6F55E277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Test", "BusinessLogic.Test\BusinessLogic.Test.csproj", "{88B2CF30-F16B-47AA-803D-709EB1F93640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE2FAEB-1886-459F-8A8D-5BD35A305FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE2FAEB-1886-459F-8A8D-5BD35A305FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE2FAEB-1886-459F-8A8D-5BD35A305FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE2FAEB-1886-459F-8A8D-5BD35A305FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80ED1586-64B0-46DF-9CED-25DF6F55E277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ED1586-64B0-46DF-9CED-25DF6F55E277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ED1586-64B0-46DF-9CED-25DF6F55E277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ED1586-64B0-46DF-9CED-25DF6F55E277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B2CF30-F16B-47AA-803D-709EB1F93640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B2CF30-F16B-47AA-803D-709EB1F93640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B2CF30-F16B-47AA-803D-709EB1F93640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B2CF30-F16B-47AA-803D-709EB1F93640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DDD1220-1F9E-46B1-973A-9BC1E078E786}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.StandardHeader = $4
+		$0.VersionControlPolicy = $5
+	EndGlobalSection
+EndGlobal
